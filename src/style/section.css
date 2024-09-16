@@ -1,0 +1,133 @@
+#destaques {
+  margin-bottom: 80px;
+
+  img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+  
+    &::before {
+      content: "";
+      inset: 0;
+      position: absolute;
+      top: 50%;
+      background: linear-gradient(
+        180deg,
+        transparent,
+        #020617
+      );
+    }
+
+    figcaption {
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
+
+      &:has(.text-h3) {
+        padding: 12px;
+      }
+
+      span {
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 4px;
+        background-color: var(--brand-color-dark);
+        text-transform: uppercase;
+        box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
+      }
+
+      h1 {
+        margin-top: 8px;
+      } 
+    }
+  }
+}
+
+#title div:nth-child(1) {
+  /* margin: 80px 0 24px 0; */
+  border-top: 1px solid var(--stroke-color);
+  padding-top: 12px;
+}
+
+#title a{
+  justify-self:end;
+}
+
+
+#most-views {
+  margin-bottom: 104px;
+  gap: 16px;
+
+  img {
+    height: 160px;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card {
+    position: relative;
+    border-radius: 4px;
+    overflow: hidden;
+
+    figcaption span {
+      display: inline-block;
+      position: absolute;
+      top: 0;
+      margin: 8px;
+      border-radius: 4px;
+
+      &:has(.text-h3) {
+        padding: 12px;
+      }
+
+      span {
+        display: inline-block;
+        padding: 4px 8px;
+        border-radius: 4px;
+        background-color: var(--brand-color-dark);
+        text-transform: uppercase;
+        box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
+      }
+
+      h1 {
+        margin-top: 8px;
+      } 
+    }
+  }
+}
+
+#ia {
+  gap:32px;
+  margin-bottom: 80px;
+}
+
+#title {
+  margin-bottom: 24px;
+}
+
+#section-2 img {
+  width: 488px;
+  border-radius: 8px;
+}
+
+#notices {
+  display: grid;
+  grid-template-columns: auto 30%;
+  gap: 16px;
+
+  img {
+    width: 176px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  div:nth-child(2) {
+    justify-self: end;
+  }
+}
