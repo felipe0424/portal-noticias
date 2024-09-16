@@ -103,6 +103,8 @@
 }
 
 #ia {
+  display: grid;
+  grid-template-columns: auto 40%;
   gap:32px;
   margin-bottom: 80px;
 }
@@ -111,18 +113,36 @@
   margin-bottom: 24px;
 }
 
-#section-2 img {
-  width: 488px;
+#ads {
+  max-width:488px;
   border-radius: 8px;
+  margin-bottom: 16px;
 }
 
 #notices {
   display: grid;
   grid-template-columns: auto 30%;
-  gap: 16px;
+  margin-bottom: 32px;
 
   img {
     width: 176px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  div:nth-child(2) {
+    justify-self: end;
+  }
+}
+
+#notices-2 {
+  display: grid;
+  grid-template-columns: 15% auto;
+  margin-bottom: 32px;
+  gap: 16px;
+
+  img {
+    width: 72px;
     object-fit: cover;
     border-radius: 8px;
   }
