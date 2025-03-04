@@ -1,6 +1,6 @@
 <body>
     <div align="center">
-        <a href="https://felipe0424.github.io/portal-noticias/" target="_blank">
+        <a href="https://portal-noticias-blond.vercel.app/" target="_blank">
         <img src="src/assets/images/Thumbnail.svg" alt="Thumbnail" width="auto">
         </a>
     </div>
