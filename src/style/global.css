@@ -25,6 +25,22 @@
 
 }
 
+@media (max-width: 768px) {
+  :root {
+
+    /* Fonts */
+    --text-h1: 800 16px/135% var(--font-family);
+    --text-h2: 600 16px/140% var(--font-family);
+    --text-h3: 500 12px/140% var(--font-family);
+    --text: 400 16px/140% var(--font-family);
+    --text-span: 400 12px/145% var(--font-family);
+    --text-p: 300 12px/160% var(--font-family);
+    --text-tag: 400 8px/160% var(--font-family);
+  
+  }
+  
+}
+
 body {
   font: var(--text);
   color: var(--text-color-primary);

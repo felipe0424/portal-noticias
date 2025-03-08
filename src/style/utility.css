@@ -3,6 +3,12 @@
   max-width: 1280px;
 }
 
+.grid-nav {
+  display: grid;
+  max-width: 100%;
+  grid-auto-flow: column;
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
 }
